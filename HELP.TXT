@@ -1,0 +1,8 @@
+get SSL_READ and SSL_WRITE to finish.
+
+
+int bufflen = 0;
+char buff[BUFFER_SIZE];
+bufflen = SSL_read(ssl, buff, BUFFER_SIZE);
+
+memset(buff,0,sizeof(buff))
